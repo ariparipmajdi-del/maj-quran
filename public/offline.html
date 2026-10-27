@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mode Offline — Maj Qur’an</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #FDFBF5;
+      color: #061A35;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      border: 1px solid #E4E9F0;
+      max-width: 420px;
+      box-shadow: 0 4px 20px rgba(6, 26, 53, 0.05);
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      color: #0645A8;
+      font-size: 1.25rem;
+      margin: 0 0 0.5rem 0;
+    }
+    p {
+      color: #5E6B7C;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      margin: 0 0 1.5rem 0;
+    }
+    button {
+      background-color: #0756C9;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      border-radius: 0.75rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background-color: #0645A8;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="/icons/maj-quran-logo.png" alt="Maj Qur’an" class="logo">
+    <h1>Anda Sedang Offline</h1>
+    <p>Aplikasi Maj Qur’an tetap dapat membuka surat, ayat, dan jadwal salat yang sudah tersimpan di memori perangkat Anda. Sambungkan kembali ke internet untuk memuat surat baru atau audio murottal.</p>
+    <button onclick="window.location.reload()">Muat Ulang Halaman</button>
+  </div>
+</body>
+</html>

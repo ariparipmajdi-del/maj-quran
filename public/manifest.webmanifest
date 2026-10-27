@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "Maj Qur’an",
+  "short_name": "Maj Qur’an",
+  "description": "Aplikasi Al-Qur’an Digital Maj Qur’an dengan terjemahan Bahasa Indonesia, audio murottal 6 qari, tafsir Kemenag RI, auto-scroll, dan jadwal salat.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FDFBF5",
+  "theme_color": "#0756C9",
+  "lang": "id-ID",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

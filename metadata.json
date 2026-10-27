@@ -1,0 +1,6 @@
+{
+  "name": "Maj Qur’an",
+  "description": "Aplikasi Al-Qur’an Digital resmi dengan terjemahan Bahasa Indonesia, jadwal salat ber-audio otomatis, audio murottal 6 qari, tafsir Kemenag RI, auto-scroll, pencarian pintar, dan dukungan offline PWA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
